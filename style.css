@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to left, rgb(118 119 119), rgb(9 123 66));}
+    header a {
+        color: rgb(1, 90, 1);
+    }
+.logobox{
+width: 35%;
+height: 100%;
+float: right;
+background-color: wheat ;
+}
+.logotext{
+    float: left;
+    line-height: 100px;
+    padding: 0 10px;
+}
+.logo{
+    height: 100%;
+    border-radius: 50%;
+}
+nav{
+    width: 70%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+  display: inline-block;
+}
+nav li{
+    width: 100px;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: wheat;
+    color: black;
+    height: 100%;
+    width: 100%;
+
+}
+main{
+    width: 100%;
+    height: 450px;
+    background-color: yellowgreen;
+ border-top: 4px solid wheat;
+ animation-name:changebackround;
+ animation-duration: 20s; 
+ animation-iteration-count: infinite;
+}
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: wheat;
+    text-align: center;
+    float: left;
+}
+aside img{
+    width: 90%;
+    height: 300px;
+}
+.h1aside{
+    padding: 20px 0;
+    border-bottom: 3px solid green;
+}
+.aboutme{
+    padding-top: 7px;
+    font-weight: bold;
+    font-family: system-ui;
+
+}
+ .article{
+    width: 70%;
+    height: 400px;
+    float: right;
+    position: relative;
+
+}
+.box{
+    position: absolute;
+    background-color: wheat;
+    width: 50%;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 15px 0;  
+}
+#h1ID{
+    border-bottom: 4px solid green;
+    padding-bottom: 15PX;
+    FONT-FAMILY: system-ui;
+}
+.fb,.youtube,.insta{
+height: 90px;
+padding-top: 20px ;
+}
+.fb:hover{
+    height: 105px;
+    background-color: green;
+    
+}
+.youtube:hover{
+    height: 105px;
+    background-color: green;
+
+}
+.insta:hover{
+    height: 105px;
+    background-color: green;
+
+}
+
+@keyframes changebackround{
+    0%{
+        background-color: rgb(118 119 119);
+    }
+    50%{
+        background-color: rgb(9 123 66);
+    }
+    100%{
+        background-color: wheat;
+    }
+}
